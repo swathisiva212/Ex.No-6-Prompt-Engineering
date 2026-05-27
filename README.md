@@ -1,13 +1,10 @@
 
 
-
 # Ex.No.6 - Development of Python Code Compatible with Multiple AI Tools
 
 ## Aim
 
 To write and implement Python code that integrates with multiple AI tools to automate the task of interacting with APIs, comparing outputs, and generating actionable insights.
-
----
 
 ## Explanation
 
@@ -26,7 +23,6 @@ In real-world applications, different AI tools may produce different responses f
 
 A comparison program helps evaluate these responses systematically.
 
----
 
 ## Tools and Technologies Used
 
@@ -38,7 +34,6 @@ A comparison program helps evaluate these responses systematically.
 | Groq API | Used as another AI tool with OpenAI-compatible chat completion format. |
 | Environment Variables | Used to store API keys securely without hard-coding them in the program. |
 
----
 
 ## Procedure
 
@@ -50,7 +45,7 @@ A comparison program helps evaluate these responses systematically.
 6. Generate actionable insights from the comparison.
 7. Record the output and result of the experiment.
 
----
+
 
 ## System Design
 
@@ -68,7 +63,7 @@ Finally, it gives guidelines for identifying the best response.
 | Comparison | The responses are compared based on clarity, depth, accuracy, and usefulness. |
 | Insight Generation | The program prints observations that help the user select the best output. |
 
----
+
 
 ## Python Code
 
@@ -148,7 +143,6 @@ if __name__ == "__main__":
     main()
 ```
 
----
 
 ## Code Explanation
 
@@ -160,7 +154,7 @@ if __name__ == "__main__":
 | `main()` function | Controls the program flow by sending the prompt to all tools and comparing the outputs. |
 | Exception handling | Prevents the program from stopping completely if one API call fails. |
 
----
+
 
 ## Sample Input Prompt
 
@@ -168,7 +162,7 @@ if __name__ == "__main__":
 Explain how Python can be used to automate API comparison between AI tools.
 ```
 
----
+
 
 ## Sample Output
 
@@ -190,7 +184,6 @@ Word Count: 28
 4. Select the output that is most accurate, complete, and practical.
 ```
 
----
 
 ## Response Comparison
 
@@ -201,7 +194,7 @@ Word Count: 28
 | Depth | Moderate depth with evaluation criteria. | More detailed about libraries and keyword checks. | Groq output is slightly deeper in implementation. |
 | Usefulness | Useful for understanding the concept. | Useful for coding-oriented explanation. | Choice depends on whether the user wants concept or implementation. |
 
----
+
 
 ## Analysis
 
@@ -228,7 +221,6 @@ The program can be improved further by adding:
 - Cost comparison
 - Automatic report generation
 
----
 
 ## Actionable Insights
 
@@ -239,33 +231,13 @@ The program can be improved further by adding:
 - Add scoring methods if the comparison needs to be automated further.
 - Choose the AI tool based on the task, not only based on response length.
 
----
-
-## Advantages
-
-- Saves time by testing multiple AI tools automatically.
-- Helps identify which AI tool gives the most useful response.
-- Supports structured comparison of outputs.
-- Can be extended for reports, dashboards, or automation workflows.
-
----
-
-## Limitations
-
-- Requires valid API keys and internet access.
-- API costs may apply depending on the tool used.
-- Automatic comparison may not fully understand response quality without advanced evaluation logic.
-- Different AI tools may use different model formats, rate limits, and pricing rules.
-
----
-
 ## Output
 
 Python code was developed to interact with multiple AI tool APIs, collect responses, compare outputs, and generate actionable insights.
 
 The sample output shows how responses from different AI tools can be compared using clarity, accuracy, depth, and usefulness.
 
----
+
 
 ## Result
 
@@ -273,13 +245,6 @@ Thus, Python code compatible with multiple AI tools was developed and explained.
 
 The experiment demonstrates how APIs can be used to automate AI interaction, compare model responses, and generate useful insights for selecting the most suitable AI output.
 
----
-
-## Conclusion
-
-Integrating multiple AI tools using Python helps users compare responses and make better decisions.
-
-By using APIs, environment variables, structured prompts, and comparison criteria, Python can automate the process of testing different AI systems.
 
 This approach is useful for coding assistance, research, content generation, decision-making, and AI evaluation tasks.
 ```
