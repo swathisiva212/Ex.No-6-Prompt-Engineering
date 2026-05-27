@@ -240,10 +240,12 @@ The sample output shows how responses from different AI tools can be compared us
 
 
 ## Result
-
 Thus, Python code compatible with multiple AI tools was developed and explained.
 
-The experiment demonstrates how APIs can be used to automate AI interaction, compare model responses, and generate useful insights for selecting the most suitable 
+The experiment demonstrates how APIs can be used to automate AI interaction, compare model responses, and generate useful insights for selecting the most suitable AI output.
+
+---
+
 
 
 This approach is useful for coding assistance, research, content generation, decision-making, and AI evaluation tasks.
